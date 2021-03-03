@@ -1,7 +1,7 @@
-package com.company.steps;
+package com.sconto.steps;
 
 import com.codeborne.selenide.Condition;
-import com.company.pages.CustomerAccountPage;
+import com.sconto.pages.CustomerAccountPage;
 import io.cucumber.java8.En;
 
 import static com.codeborne.selenide.Selenide.page;

@@ -1,11 +1,11 @@
-package com.company.steps;
+package com.sconto.steps;
 
-import com.company.pages.HomePage;
+import com.sconto.pages.HomePage;
 import io.cucumber.java8.En;
 
 import static com.codeborne.selenide.Condition.exist;
 import static com.codeborne.selenide.Selenide.open;
-import static com.company.pages.HomePage.basicURL;
+import static com.sconto.pages.HomePage.basicURL;
 
 public class HomePageSteps implements En {
 

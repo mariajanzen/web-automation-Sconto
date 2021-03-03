@@ -4,12 +4,12 @@ Feature: Sconto Login Feature
 
   Scenario: Successful Login
     Given I am on the Homepage
-    When I click on the Login icon
-    Then I see Login Page
+    When I click on Login icon
+    Then I see Login page
 
     When I insert valid user credentials
     And I click on Login button
     Then I should see Homepage
 
-    When I click on the Login icon
+    When I click on Login icon
     Then I should be logged in
