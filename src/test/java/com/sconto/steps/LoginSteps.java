@@ -1,17 +1,14 @@
-package com.company.steps;
+package com.sconto.steps;
 
 import com.codeborne.selenide.Condition;
-import com.company.pages.HomePage;
-import com.company.pages.LoginPage;
-import org.openqa.selenium.remote.RemoteWebDriver;
-import sun.jvm.hotspot.code.Location;
+import com.sconto.pages.HomePage;
+import com.sconto.pages.LoginPage;
 
 import io.cucumber.java8.En;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selenide.open;
 import static com.codeborne.selenide.Selenide.page;
-import static com.company.pages.HomePage.basicURL;
 
 public class LoginSteps implements En{
 

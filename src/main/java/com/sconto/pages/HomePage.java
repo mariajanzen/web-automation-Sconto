@@ -1,9 +1,9 @@
-package com.company.pages;
+package com.sconto.pages;
 
 import com.codeborne.selenide.Condition;
 import com.codeborne.selenide.Selenide;
 import com.codeborne.selenide.SelenideElement;
-import com.company.util.PropertiesLoader;
+import com.sconto.util.PropertiesLoader;
 import org.openqa.selenium.By;
 
 import static com.codeborne.selenide.Selenide.$;

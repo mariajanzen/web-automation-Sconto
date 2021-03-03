@@ -1,4 +1,4 @@
-package com.company.util;
+package com.sconto.util;
 
 
 import java.io.IOException;
